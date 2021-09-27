@@ -30,12 +30,9 @@ public class AdminPage {
 	
 	public AddUserPage navigatetoAddUserPage()
 	{
-		//System.out.println("i am in admin page");
-		//usermngmnt.click();
 		addUserButton.click();
 		AddUserPage au=new AddUserPage();
 		return new AddUserPage().isPagedisplay() ;
-		//return this;
 	}
 	
 	public AdminPage isPageLoaded()
